@@ -89,11 +89,11 @@ You also need to create a "**`database.ini`**" file which contains the following
 
   
 
-> [postgresql]
-> host=localhost
-> database=database_name_here
-> user=user_name_here
-> password=password_here
+    [postgresql]
+    host=localhost
+    database=database_name_here
+    user=user_name_here
+    password=password_here
 
   
   
