@@ -7,6 +7,8 @@ This Python tool is designed to scrape coa.nl website and find the current refug
 
 ## Database structure
 ![With 1 to many](https://user-images.githubusercontent.com/122477951/224125267-74d322ec-b125-4947-aa1e-53fa9d53edd5.png)
+
+
 (the ERD diagram was created by pgadmin4)
 
 There are 2 tables, **`AZCs`** and **`Location_Details`** with the **primary key** for both being `id` (a serial). 
