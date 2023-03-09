@@ -1,0 +1,4 @@
+beautifulsoup4==4.11.2
+psycopg2==2.9.5
+PyQt5==5.15.9
+requests==2.25.1
