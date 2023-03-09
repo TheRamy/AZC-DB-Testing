@@ -68,7 +68,7 @@ Install the required packages by running the following command:
 
   
 
-pip install -r requirements.txt
+    pip install -r requirements.txt
 
   
 
@@ -77,7 +77,7 @@ To create the required tables in the database, you need to execute the SQL comma
   
   
 
-psql -U username -d database_name -f sql.txt
+    psql -U username -d database_name -f sql.txt
 
   
 
@@ -89,17 +89,11 @@ You also need to create a "**`database.ini`**" file which contains the following
 
   
 
-[postgresql]
-
-  
-
-host=localhost
-
-database=database_name_here
-
-user=user_name_here
-
-password=password_here
+> [postgresql]
+> host=localhost
+> database=database_name_here
+> user=user_name_here
+> password=password_here
 
   
   
@@ -111,11 +105,11 @@ password=password_here
 
   
 
-Run the main.py file by typing the following command in your terminal:
+Run the **main.py** file by typing the following command in your terminal:
 
   
 
-python3 main.py
+    python3 main.py
 
   
 
